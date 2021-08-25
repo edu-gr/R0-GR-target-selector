@@ -1,0 +1,14 @@
+{
+  "name": "radar",
+  "version": "1.0.0",
+  "description": "Radar de selección de objetivos para modulo de ataque R0-GR",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "author": "Eduardo García",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}

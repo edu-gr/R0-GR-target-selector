@@ -1,0 +1,25 @@
+{
+  "name": "targets-selector-api",
+  "version": "1.0.0",
+  "description": "API de respuesta de coordenadas para modulo R0-GR",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "DEBUG=radar:* nodemon server.js",
+    "start": "node server.js",
+    "lint": "standard"
+  },
+  "author": "Eduardo García Rodríguez",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "radar": "file:../radar"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "standard": "^16.0.3"
+  }
+}
